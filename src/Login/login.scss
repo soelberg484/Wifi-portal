@@ -1,0 +1,94 @@
+@import '../resources/colors.scss';
+
+.Wifi-SVG {
+    object-fit: contain;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .Free-Wi-Fi {
+    font-size: 30px;
+    font-weight: bold;
+    color: $Group_Blue;
+  }
+  
+  .Welcome-Onboard {
+    font-size: 16px;
+    color: $Text_Grey;
+  }
+  
+  .img-wifi {
+    padding-bottom: 20px;
+  }
+  
+  .text-container-login {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .form-container {
+    text-align: left;
+    width: 255px;
+    height: 85px;
+    margin: auto;
+  }
+  
+  .form-container input {
+    height: 50px;
+    width: 100%;
+    border-radius: 1px;
+    border: solid 1px $Text_Medium;
+    font-size: 16px;
+    color: $Text_Grey;
+    padding-left: 10px;
+    font-family: DFDS;
+  }
+  
+  .form-container input::placeholder {
+    color: $Text_Medium;
+  }
+  
+  .form-container span {
+    text-decoration: none;
+    color: $Link_Blue;
+    cursor: pointer;
+    
+  }
+  
+  .form-container p {
+    line-height: 1.5;
+    font-size: 14px;
+    color: $Text_Grey;
+    font-family: DFDS;
+  }
+  
+  .form-container .submit-button {
+    text-transform: uppercase;
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: var(--White);
+    background-color: $Primary_Orange;
+    border: none;
+    cursor: pointer;
+    font-family: DFDS;
+  }
+
+  .form-container .submit-button:hover {
+    opacity: 0.7;
+  }
+
+  
+  label {
+    font-size: 16px;
+    font-weight: bold;
+    color: $Group_Blue;
+  }
+  
+  #Validation {
+    font-size: 12px;
+    color: $No_Red;
+  }

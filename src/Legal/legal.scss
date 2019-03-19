@@ -1,0 +1,63 @@
+@import '../resources/colors.scss';
+
+.Tabs {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: $White;
+  width: 100%;
+  top: 72;
+
+}
+
+.Tab-active {
+  float: left;
+  width: 50%;
+  display: block;
+  text-align: center;
+  padding: 14px 0px;
+  border-radius: 1px;
+  color: $Group_Blue;
+  font-size: 16px;
+  line-height: 1.31;
+  text-decoration: none;
+  height: 47px;
+}
+
+/* Tab inactive right and left. Only diffrent is the border (left/right border is hidden depending on the active tab selected)*/
+.Tab-inactive-right {
+  float: left;
+  width: 50%;
+  display: block;
+  text-align: center;
+  padding: 14px 0px;
+  color: $Group_Blue;
+  background-color: $Action_inactive;
+  border: solid 1px $Action_Medium;
+  border-top: none;
+  border-right: none;
+  line-height: 1.31;
+  font-size: 16px;
+  line-height: 1.31;
+  text-decoration: none;
+  height: 47px;
+}
+
+.Tab-inactive-left {
+  float: left;
+  width: 50%;
+  display: block;
+  text-align: center;
+  padding: 14px 0px;
+  color: $Group_Blue;
+  background-color: $Action_inactive;
+  border: solid 1px $Action_Medium;
+  border-top: none;
+  border-left: none;
+  line-height: 1.31;
+  font-size: 16px;
+  line-height: 1.31;
+  text-decoration: none;
+  height: 47px;
+}
