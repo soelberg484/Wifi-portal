@@ -30,10 +30,10 @@ class Login extends Component {
     handleSubmit(event) {
         //this.validateId(this.state.custId);
 
-        alert("You clicked on connect")
-
+        
         //prevent from redireting 
-        event.preventDefault();
+        //alert("You clicked on connect")
+        //event.preventDefault();
 
         //to reset input after submit (only used when cutomerId entry field is enabled)
         //this.setState({custId: ''})
