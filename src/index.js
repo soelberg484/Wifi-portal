@@ -2,7 +2,7 @@ import "babel-polyfill"
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './resources/colors.scss';
-import WhiteSurface from './white-surface.js'
+import WhiteSurface from './white-surface'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<WhiteSurface />, document.getElementById('root'));
