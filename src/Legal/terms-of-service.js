@@ -58,8 +58,9 @@ class TermsOfService extends Component {
                     </section>
                     <section>
                         <h4>Amendment of the T&C</h4>
-                        <p>The T&C may be amended by DFDS without notice. The T&C in force at any time can be found here: 
-                        <a href="[INSERT LINK]">link</a></p>
+                        <p>The T&C may be amended by DFDS without notice.
+                             {/* ##NEED CORRECT LINK### The T&C in force at any time can be found here: 
+                        <a href="[INSERT LINK]">link</a>*/} </p> 
                     </section>
                     <section>
                         <h4>How DFDS processes your personal data</h4>

@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
+//import Tab from 'react-bootstrap/Tab'
+//import Nav from 'react-bootstrap/Nav'
+//import PrivacyPolicy from './privacy-policy'
 import './legal.scss'
-import Tab from 'react-bootstrap/Tab'
-import Nav from 'react-bootstrap/Nav'
-import PrivacyPolicy from './privacy-policy'
 import TermsOfService from './terms-of-service'
 
 
