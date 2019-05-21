@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import '../Legal/text-style.scss'
 import BackButton from './back-button';
 
-
 class TermsOfService extends Component {
 
     render() {
@@ -65,7 +64,7 @@ class TermsOfService extends Component {
                     <section>
                         <h4>How DFDS processes your personal data</h4>
                         <p>We process your personal data in accordance with the GDPR and our privacy notice which can be found here: 
-                        <a href="www.dfds.com/en/legal/privacy">www.dfds.com/en/legal/privacy</a></p>
+                        <a href="http://www.dfds.com/en/legal/privacy">www.dfds.com/en/legal/privacy</a></p>
                     </section>
                     <section>
                         <h4>Choice of law and jurisdiction</h4>
