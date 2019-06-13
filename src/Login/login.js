@@ -89,7 +89,7 @@ class Login extends Component {
                         and have reviewed the DFDS <span onClick={this.handleTabSelected} id='tabItem1' >privacy policy</span></p>
 
 
-                    <button className="submit-button" formAction='https://www.dfds.com/en/passenger-ferries/onboard/france-dover/shopping' >accept and connect</button>
+                    <button className="submit-button" formAction='dologin.html' >accept and connect</button>
                 </form>
             </div>
 
